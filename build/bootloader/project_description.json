@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/advait/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/advait/Downloads/esp-idf-master/examples/bluetooth/esp_ble_mesh/ble_mesh_node/HSL_SERVER/build/bootloader",
+    "config_file":        "/home/advait/Downloads/esp-idf-master/examples/bluetooth/esp_ble_mesh/ble_mesh_node/HSL_SERVER/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4.2-dirty",
+    "target":             "esp32c3",
+    "rev":                "",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/advait/esp/esp-idf/components/efuse/Kconfig;/home/advait/esp/esp-idf/components/esp32c3/Kconfig;/home/advait/esp/esp-idf/components/esp_common/Kconfig;/home/advait/esp/esp-idf/components/esp_hw_support/Kconfig;/home/advait/esp/esp-idf/components/esp_system/Kconfig;/home/advait/esp/esp-idf/components/freertos/Kconfig;/home/advait/esp/esp-idf/components/hal/Kconfig;/home/advait/esp/esp-idf/components/log/Kconfig;/home/advait/esp/esp-idf/components/newlib/Kconfig;/home/advait/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/advait/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/advait/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/advait/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/advait/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32c3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "/home/advait/esp/esp-idf/components/bootloader", "/home/advait/esp/esp-idf/components/bootloader_support", "/home/advait/esp/esp-idf/components/efuse", "/home/advait/esp/esp-idf/components/esp32c3", "/home/advait/esp/esp-idf/components/esp_common", "/home/advait/esp/esp-idf/components/esp_hw_support", "/home/advait/esp/esp-idf/components/esp_rom", "/home/advait/esp/esp-idf/components/esp_system", "/home/advait/esp/esp-idf/components/esptool_py", "/home/advait/esp/esp-idf/components/freertos", "/home/advait/esp/esp-idf/components/hal", "/home/advait/esp/esp-idf/components/log", "/home/advait/esp/esp-idf/components/bootloader/subproject/main", "/home/advait/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/advait/esp/esp-idf/components/newlib", "/home/advait/esp/esp-idf/components/partition_table", "/home/advait/esp/esp-idf/components/riscv", "/home/advait/esp/esp-idf/components/soc", "/home/advait/esp/esp-idf/components/spi_flash", "" ]
+}

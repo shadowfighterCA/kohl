@@ -1,0 +1,13 @@
+{
+    "idf.port": "/dev/ttyACM0",
+    "idf.adapterTargetName": "esp32c3",
+    "idf.flashType": "UART",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-ftdi.cfg"
+    ],
+    "files.associations": {
+        "esp_ble_mesh_networking_api.h": "c",
+        "level_server_config.h": "c",
+        "esp_ble_mesh_local_data_operation_api.h": "c"
+    }
+}
